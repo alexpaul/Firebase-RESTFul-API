@@ -9,3 +9,8 @@
   }
 }
 ```
+
+
+## Resources 
+
+1. [Create Auth Token](https://stackoverflow.com/questions/38661839/using-postman-to-access-firebase-rest-api)
