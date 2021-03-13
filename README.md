@@ -37,6 +37,23 @@
 }
 ```
 
+REST email/password endpoint 
+POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDVkcyUVSZmPDcXR_fC3UYZJRdn7xY6TTs`
+
+Body 
+
+```json 
+{
+    "email": "", 
+    "password": "",
+    "returnSecureToken": true
+}
+```
+
+Responese 
+
+You will get back the `idToken` etc....
+
 
 ## Resources 
 
