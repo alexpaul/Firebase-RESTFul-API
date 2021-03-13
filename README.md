@@ -19,7 +19,7 @@
 [Authenticate REST Requests](https://firebase.google.com/docs/database/rest/auth#google_oauth2_access_tokens)
 
 1. Google OAuth2 access tokens. 
-2. Firebase ID Tokens - similar to those client apps use once the user has successfully logged in using their email and password. This can also be done using the following REST email/password endpoint.   
+2. Firebase ID Tokens - similar to those client apps use once the user has successfully logged in using their email and password. This can also be done using the following REST email/password endpoint below.   
 
    #### Using Firebase ID Tokens
    
