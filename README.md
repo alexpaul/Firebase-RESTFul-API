@@ -1,6 +1,6 @@
 # Firebase-RESTFul-API
 
-## Objective 
+## 1, Objective 
 
 * Create a RESTFul API using Firebase. 
 * Implement security rules to allow access only with a valid token.  
@@ -14,12 +14,15 @@
   ```
 * Be able to access endpoint(s) from e.g Postman. 
 
-## There are two ways to add authentication to a RESTFul API
+## 2. There are two ways to add authentication to a RESTFul API
 
 [Authenticate REST Requests](https://firebase.google.com/docs/database/rest/auth#google_oauth2_access_tokens)
 
 1. Google OAuth2 access tokens. 
 2. Firebase ID Tokens - similar to those client apps use once the user has successfully logged in using their email and password. This can also be done using the following REST email/password endpoint.   
+
+   #### Using Firebase ID Tokens
+   
    POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API key goes here}`   
    
    The API key is located in your Firebase console under settings. 
@@ -46,8 +49,37 @@
     "registered": true,
     "refreshToken": "",
     "expiresIn": ""
-}
+  }
   ```
+  
+## 3. Using the `idToken` to make a CRUD request to Firebase 
+
+> When the `idToken` expires, redo step 2 above to generate an new `idToken`. 
+
+Making a POST request to `/books` `https://{Project name Firebase URL}/books.json?auth={idToken}`
+
+#### Body 
+
+```json 
+{
+  "title": "The Pragmatic Programmer"
+}
+```
+
+Making a GET request to `/books` `https://{Project name Firebase URL}/books.json?auth={idToken}`
+
+#### JSON Payload Response 
+
+```json 
+{
+    "-MVfMNQvfOAkIvZJmjji": {
+        "title": "The Pragmatic Programmer"
+    },
+    "-MVfMUGmx3P4ngTxaaet": {
+        "title": "Unbroken"
+    }
+}
+```
 
 
 ## Resources 
