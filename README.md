@@ -38,7 +38,7 @@
 
 ## Resources 
 
-1. [Firebase Database REST API](https://firebase.google.com/docs/reference/rest/auth)
+1. [Firebase Auth REST API](https://firebase.google.com/docs/reference/rest/auth)
 2. [StackOverflow - Create Auth Token](https://stackoverflow.com/questions/38661839/using-postman-to-access-firebase-rest-api)
 3. [Video - Creating routes in Firebase Realtime Database](https://www.youtube.com/watch?v=rB1qGYYaoPc)
 4. [Vidoe - Creating Service Account Auth Token](https://www.youtube.com/watch?v=ScsID2yPB8k)
