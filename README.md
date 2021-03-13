@@ -14,7 +14,7 @@
   ```
 * Be able to access endpoint(s) from e.g Postman. 
 
-## 2. There are two ways to add authentication to a RESTFul API
+## 2. There are two ways to add authentication to your Firebase RESTFul API
 
 [Authenticate REST Requests](https://firebase.google.com/docs/database/rest/auth#google_oauth2_access_tokens)
 
