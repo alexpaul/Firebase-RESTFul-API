@@ -1,5 +1,18 @@
 # Firebase-RESTFul-API
 
+## Objective 
+
+* Create a RESTFul API via Firebase. 
+* Implement security rules to only authorized use through authentication. 
+* Be able to access endpoint(s) from e.g Postman. 
+
+## There are two ways to add authentication to a RESTFul API
+
+1. Google Oauth 2.0 Custom tokens 
+2. Firebase ID Token similar to those client apps use. This can also be done using the following REST email/password endpoint.   
+   POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDVkcyUVSZmPDcXR_fC3UYZJRdn7xY6TTs`   
+
+
 ## Firebase Auth REST API 
 
 [Firebase Database REST API](https://firebase.google.com/docs/reference/rest/auth)
