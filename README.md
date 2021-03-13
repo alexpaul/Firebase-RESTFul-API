@@ -21,36 +21,36 @@
 1. Google OAuth2 access tokens. 
 2. Firebase ID Tokens - similar to those client apps use once the user has successfully logged in using their email and password. This can also be done using the following REST email/password endpoint below.   
 
-   #### Using Firebase ID Tokens
-   
-   POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API key goes here}`   
-   
-   The API key is located in your Firebase console under settings. 
-   
-   **Body** payload to POST to Firebase in exchange for `idToken` response 
-  ```json 
-  {
-      "email": "", 
-      "password": "",
-      "returnSecureToken": true
-  }
-  ```
+ #### Using Firebase ID Tokens
 
-  **Response** back from request
+ POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API key goes here}`   
 
-  You will get back the `idToken` etc....
-  ```json 
-  {
-    "kind": "",
-    "localId": "",
-    "email": "",
-    "displayName": "",
-    "idToken": "",
-    "registered": true,
-    "refreshToken": "",
-    "expiresIn": ""
-  }
-  ```
+ The API key is located in your Firebase console under settings. 
+
+ **Body** payload to POST to Firebase in exchange for `idToken` response 
+```json 
+{
+    "email": "", 
+    "password": "",
+    "returnSecureToken": true
+}
+```
+
+**Response** back from request
+
+You will get back the `idToken` etc....
+```json 
+{
+  "kind": "",
+  "localId": "",
+  "email": "",
+  "displayName": "",
+  "idToken": "",
+  "registered": true,
+  "refreshToken": "",
+  "expiresIn": ""
+}
+```
   
 ## 3. Using the `idToken` to make a CRUD request to Firebase 
 
