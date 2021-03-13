@@ -66,3 +66,4 @@ You will get back the `idToken` etc....
 3. [Vidoe - Creating Service Account Auth Token](https://www.youtube.com/watch?v=ScsID2yPB8k)
 4. [Video - Firebase Functions Authentication ](https://www.youtube.com/watch?v=hkxyt8FImcM)
 5. [Video - Rules](https://www.youtube.com/watch?v=dx_gkSb-Ch0)
+6. [Video - Creating custom tokesn - python](https://www.youtube.com/watch?v=FPIJwrr5x4g)
