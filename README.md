@@ -3,7 +3,7 @@
 ## Objective 
 
 * Create a RESTFul API via Firebase. 
-* Implement security rules to only authorized use through authentication. 
+* Implement security rules to allow access only with a valid token.  
   ```json
   {
     "rules": {
