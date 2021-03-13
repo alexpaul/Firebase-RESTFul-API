@@ -59,7 +59,7 @@ You will get back the `idToken` etc....
 
 Making a POST request to `/books` `https://{Firebase Realtime Database Project URL}/books.json?auth={idToken}`
 
-> Your `Firebase Realtime Database Project URL` is the top level handle to your database e.g `my-project-name.default-rtdb.firebaseio.com`. This is located in by clicking on Realtime Database in your Firebase console.
+> Your `Firebase Realtime Database Project URL` is the top level handle to your database e.g `my-project-name.default-rtdb.firebaseio.com`. This is located by clicking on Realtime Database in your Firebase console.
 
 #### Body 
 
