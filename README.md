@@ -28,6 +28,15 @@
 }
 ```
 
+```javascript 
+{
+  "rules": {
+    ".read": "auth.uid != null",
+    ".write":false 
+  }
+}
+```
+
 
 ## Resources 
 
