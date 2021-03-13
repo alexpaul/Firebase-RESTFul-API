@@ -19,6 +19,15 @@
 }
 ```
 
+```javascript 
+{
+  "rules": {
+    ".read": "auth.token.email.endsWith('@gmail.com')",
+    ".write":false 
+  }
+}
+```
+
 
 ## Resources 
 
