@@ -2,7 +2,7 @@
 
 ## 1, Objective 
 
-* Create a RESTFul API using Firebase. 
+* Create a RESTFul API using Firebase Realtime Database. 
 * Implement security rules to allow access only with a valid token.  
   ```json
   {
