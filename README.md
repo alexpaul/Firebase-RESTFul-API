@@ -54,7 +54,7 @@ You will get back the `idToken` etc....
   
 ## 3. Using the `idToken` to make a CRUD request to Firebase 
 
-> When the `idToken` expires, redo step 2 above to generate an new `idToken`. 
+> When the `idToken` expires, redo step 2 above to generate a new `idToken`. 
 
 Making a POST request to `/books` `https://{Project name Firebase URL}/books.json?auth={idToken}`
 
