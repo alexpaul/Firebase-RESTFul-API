@@ -1,8 +1,8 @@
 # Firebase-RESTFul-API
 
-## Firebase Database REST API 
+## Firebase Auth REST API 
 
-[Firebase Database REST API](https://firebase.google.com/docs/reference/rest/database)
+[Firebase Database REST API](https://firebase.google.com/docs/reference/rest/auth)
 
 
 ```javascript
