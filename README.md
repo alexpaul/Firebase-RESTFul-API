@@ -2,7 +2,7 @@
 
 ## Objective 
 
-* Create a RESTFul API via Firebase. 
+* Create a RESTFul API using Firebase. 
 * Implement security rules to allow access only with a valid token.  
   ```json
   {
@@ -20,9 +20,11 @@
 
 1. Google OAuth2 access tokens. 
 2. Firebase ID Tokens - similar to those client apps use once the user has successfully logged in using their email and password. This can also be done using the following REST email/password endpoint.   
-   POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDVkcyUVSZmPDcXR_fC3UYZJRdn7xY6TTs`   
+   POST `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API key goes here}`   
    
-   Body payload to POST in exchange for `idToken` response 
+   The API key is located in your Firebase console under settings. 
+   
+   **Body** payload to POST to Firebase in exchange for `idToken` response 
   ```json 
   {
       "email": "", 
@@ -31,9 +33,21 @@
   }
   ```
 
-  Response 
+  **Response** back from request
 
   You will get back the `idToken` etc....
+  ```json 
+  {
+    "kind": "",
+    "localId": "",
+    "email": "",
+    "displayName": "",
+    "idToken": "",
+    "registered": true,
+    "refreshToken": "",
+    "expiresIn": ""
+}
+  ```
 
 
 ## Resources 
