@@ -57,7 +57,8 @@ You will get back the `idToken` etc....
 > When the `idToken` expires, redo step 2 above to generate a new `idToken`. 
 
 
-Making a POST request to `/books` `https://{Firebase Realtime Database Project URL}/books.json?auth={idToken}`
+Making a POST request to `/books`   
+POST `https://{Firebase Realtime Database Project URL}/books.json?auth={idToken}`   
 
 > Your `Firebase Realtime Database Project URL` is the top level handle to your database e.g `my-project-name.default-rtdb.firebaseio.com`. This is located by clicking on Realtime Database in your Firebase console.
 
@@ -69,7 +70,8 @@ Making a POST request to `/books` `https://{Firebase Realtime Database Project U
 }
 ```
 
-Making a GET request to `/books` `https://{Firebase Realtime Database Project URL}/books.json?auth={idToken}`
+Making a GET request to `/books`   
+GET `https://{Firebase Realtime Database Project URL}/books.json?auth={idToken}`   
 
 #### JSON Payload Response 
 
