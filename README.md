@@ -56,7 +56,10 @@ You will get back the `idToken` etc....
 
 > When the `idToken` expires, redo step 2 above to generate a new `idToken`. 
 
-Making a POST request to `/books` `https://{Project name Firebase URL}/books.json?auth={idToken}`
+
+Making a POST request to `/books` `https://{Firebase Realtime URL}/books.json?auth={idToken}`
+
+> Your `Firebase Realtime URL` is the top level handle to your database. This is located in by clicking on Realtime database in your Firebase console.
 
 #### Body 
 
@@ -66,7 +69,7 @@ Making a POST request to `/books` `https://{Project name Firebase URL}/books.jso
 }
 ```
 
-Making a GET request to `/books` `https://{Project name Firebase URL}/books.json?auth={idToken}`
+Making a GET request to `/books` `https://{Firebase Realtime URL}/books.json?auth={idToken}`
 
 #### JSON Payload Response 
 
