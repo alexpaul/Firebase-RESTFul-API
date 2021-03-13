@@ -10,6 +10,15 @@
 }
 ```
 
+```javascript 
+{
+  "rules": {
+    ".read": "auth.token.endsWith('MRBWgooKJUYE2HS2JeX3VlY99us2')",
+    ".write":false 
+  }
+}
+```
+
 
 ## Resources 
 
