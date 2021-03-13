@@ -65,3 +65,4 @@ You will get back the `idToken` etc....
 2. [Video - Creating routes in Firebase Realtime Database](https://www.youtube.com/watch?v=rB1qGYYaoPc)
 3. [Vidoe - Creating Service Account Auth Token](https://www.youtube.com/watch?v=ScsID2yPB8k)
 4. [Video - Firebase Functions Authentication ](https://www.youtube.com/watch?v=hkxyt8FImcM)
+5. [Video - Rules](https://www.youtube.com/watch?v=dx_gkSb-Ch0)
