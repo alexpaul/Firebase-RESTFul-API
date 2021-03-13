@@ -4,6 +4,14 @@
 
 * Create a RESTFul API via Firebase. 
 * Implement security rules to only authorized use through authentication. 
+  ```json
+  {
+    "rules": {
+      ".read": "auth.token != null",
+      ".write": "auth.token != null" 
+    }
+  }
+  ```
 * Be able to access endpoint(s) from e.g Postman. 
 
 ## There are two ways to add authentication to a RESTFul API
